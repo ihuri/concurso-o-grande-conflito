@@ -55,7 +55,7 @@ include 'db.php';
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">O Grande Conflito</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Participe do nosso concurso e mostre que você e sua equipe dominão o assunto.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Participe do nosso concurso e mostre que você e sua equipe dominam o assunto.</h2>
                     <a class="btn btn-primary" href="#subscription">Inscreva-se</a>
                 </div>
             </div>
@@ -90,15 +90,15 @@ include 'db.php';
                             <div class="col-md-812 col-lg-12 mb-5">
 
                                 <div class="form-group">
-                                    <label for="nome">Nome do Lider:</label>
+                                    <label for="nome">Nome do Líder:</label>
                                     <input class="form-control" type="text" name="nome" id="nome">
                                 </div>
                                 <div class="form-group">
-                                    <label for="whatsapp">WhatsApp do Lider</label>
+                                    <label for="whatsapp">WhatsApp do Líder</label>
                                     <input class="form-control" type="tel" name="whatsapp" id="whatsapp">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">E-mail do Lider</label>
+                                    <label for="email">E-mail do Líder</label>
                                     <input class="form-control" type="email" name="email" id="email">
                                 </div>
                                 <div class="form-group">                            
@@ -109,7 +109,7 @@ include 'db.php';
                                             <input class="form-control" type="grupo" name="grupo" id="grupo">
                                         </div>
                                         <div class="col-sm">
-                                            <label for="igreja">Igreja do grupo: </label>
+                                            <label for="igreja">Igreja do Grupo: </label>
                                             <select class="form-control" id="igreja" name="igreja">
                                                 <option value="0">Selecione..</option>
                                                 <?php
