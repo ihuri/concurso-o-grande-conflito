@@ -7,9 +7,35 @@ include 'db.php';
 
  $igrejas = $statement->fetchAll(PDO::FETCH_OBJ);
 
- //var_dump($igrejas);
+ $DT = new DateTime( 'now', new DateTimeZone( 'America/Sao_Paulo') );
+ $hora = strval($DT->format("Hi"));
+ $token = md5("chavedaaplicacao".$hora);
 
 ?>
+
+<?php
+/*
+ if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
+  if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
+  {
+        $secret = '6LfxQe8eAAAAAP17Uj3BozoPZcmXqXVQHscE6NmD';
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+        if($responseData->success)
+        { ?>
+            <div style="color: limegreen;"><b>Sua solicitação de contato foi enviada com sucesso.</b></div>
+        <?php }
+        else
+        {?>
+            <div style="color: red;"><b>A verificação do robô falhou, tente novamente..</b></div>
+        <?php }
+   }else{?>
+       <div style="color: red;"><b>Por favor, faça a verificação do robô.</b></div>
+   <?php }
+ }
+ */
+?>
+
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -54,7 +80,7 @@ include 'db.php';
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">O Grande Conflito</h1>
+                    <h1 class="mx-auto my-0 text-uppercase">O Grande <b>Conflito</b></h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Participe do nosso concurso e mostre que você e sua equipe dominam o assunto.</h2>
                     <a class="btn btn-primary" href="#subscription">Inscreva-se</a>
                 </div>
@@ -86,31 +112,31 @@ include 'db.php';
                         <h3 class="page-section-heading text-center text-primary mb-0">Cadastro para o Concurso</h3>
                         <br>
                         <br>
-                        <form action="" method="get">
+                        <form action="insert.php" method="post" id="formID">
+                        <input type="hidden" id="_token" name="_token" value="<?= $token; ?>">
                             <div class="col-md-812 col-lg-12 mb-5">
-
                                 <div class="form-group">
                                     <label for="nome">Nome do Líder:</label>
-                                    <input class="form-control" type="text" name="nome" id="nome">
+                                    <input class="form-control" type="text" name="nome" id="nome" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="whatsapp">WhatsApp do Líder</label>
-                                    <input class="form-control" type="tel" name="whatsapp" id="whatsapp">
+                                    <input class="form-control" type="tel" name="whatsapp" id="whatsapp" maxlength="15" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">E-mail do Líder</label>
-                                    <input class="form-control" type="email" name="email" id="email">
+                                    <input class="form-control" type="email" name="email" id="email" required>
                                 </div>
                                 <div class="form-group">                            
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-sm">
                                             <label for="grupo">Nome do seu Grupo:</label>
-                                            <input class="form-control" type="grupo" name="grupo" id="grupo">
+                                            <input class="form-control" type="grupo" name="grupo" id="grupo" required>
                                         </div>
                                         <div class="col-sm">
                                             <label for="igreja">Igreja do Grupo: </label>
-                                            <select class="form-control" id="igreja" name="igreja">
+                                            <select class="form-control" id="igreja" name="igreja" required>
                                                 <option value="0">Selecione..</option>
                                                 <?php
                                                     foreach ($igrejas as $key => $igreja) {
@@ -138,10 +164,14 @@ include 'db.php';
                                 <div class="container">
                                     <div class="row" id="children"></div>
                                 </div>
+                                <!--<div class="g-recaptcha" data-sitekey="6LfxQe8eAAAAAPmCz3IEipC_gQxNnCpVNkJPVfyK"></div><br><br>-->
+                                <div class="form-check">
 
+                                    <input type="checkbox" class="form-check-input" id="aceiteTermo" name="aceiteTermo" value="on" required>
+                                    <label class="form-check-label" for="exampleCheck1">Declaro que li e concordo com as normas deste <a href="#">Concurso</a>.</label>
+                                </div>
                                 <br />
-                                <button type="submit" class="btn btn-primary mb-2" name="send" id="send">Cadastrar</button>
-
+                                <input type="submit" class="btn btn-primary mb-2" name="send" id="send" value="Cadastrar" disabled><br><br>
                             </div>
                         </form>
                     </div>
@@ -228,6 +258,10 @@ include 'db.php';
         );
     </script>
     <script type="text/javascript" async defer src="https://d1vpp6qbv6ryr9.cloudfront.net/script/embed.min.js"></script>
+    <!-- Mascara Teelefone-->
+
+    <!-- Recaptia-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </body>
 

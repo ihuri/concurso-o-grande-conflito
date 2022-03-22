@@ -15,6 +15,6 @@ $chidrenQnt.on('change', function() {
     }
 
     for (let index = 0; index < i; index++) {
-        Children.container.append(`<div class="col-sm" id="div-integrantes"><label>Integrante 0${index + 1}: <br> Nome: <input class="form-control" type="text" name="integrante0${index + 1}" /> </label> </div>`);
+        Children.container.append(`<div class="col-sm" id="div-integrantes"><label>Integrante 0${index + 1}: <br> Nome: <input class="form-control" type="text" name="nome_integrante0${index + 1}" /> </label> </div>`);
     }
 });
