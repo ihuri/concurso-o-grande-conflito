@@ -140,7 +140,7 @@ include 'db.php';
                                                 <option value="0">Selecione..</option>
                                                 <?php
                                                     foreach ($igrejas as $key => $igreja) {
-                                                        echo "<option value='".$igreja->id."'>".$igreja->nome."</option>"; 
+                                                        echo "<option value='".$igreja->nome."'>".$igreja->nome."</option>"; 
                                                     }  
                                                 ?>
                                             </select>   

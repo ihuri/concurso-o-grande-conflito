@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Mar-2022 às 01:25
+-- Tempo de geração: 22-Mar-2022 às 18:22
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.0.15
 
@@ -243,6 +243,27 @@ INSERT INTO `igrejas` (`id`, `nome`) VALUES
 (204, 'Vista Grande'),
 (205, 'Votupoca');
 
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `inscricoes`
+--
+
+CREATE TABLE `inscricoes` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `whatsapp` varchar(50) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `grupo` varchar(255) NOT NULL,
+  `igreja` varchar(150) NOT NULL,
+  `qt` int(11) NOT NULL,
+  `nome_integrante01` varchar(255) DEFAULT NULL,
+  `nome_integrante02` varchar(255) DEFAULT NULL,
+  `nome_integrante03` varchar(255) DEFAULT NULL,
+  `nome_integrante04` varchar(255) DEFAULT NULL,
+  `create_up` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 --
 -- Índices para tabelas despejadas
 --
@@ -254,6 +275,12 @@ ALTER TABLE `igrejas`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Índices para tabela `inscricoes`
+--
+ALTER TABLE `inscricoes`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -262,6 +289,12 @@ ALTER TABLE `igrejas`
 --
 ALTER TABLE `igrejas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=206;
+
+--
+-- AUTO_INCREMENT de tabela `inscricoes`
+--
+ALTER TABLE `inscricoes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
