@@ -4,7 +4,7 @@ include 'db.php';
 
 $DT = new DateTime( 'now', new DateTimeZone( 'America/Sao_Paulo') );
 $hora = strval($DT->format("Hi"));
-$token = md5("TIAPS2022*>*".$hora);
+$token = md5("chavedaaplicacao".$hora);
 
 if (isset ($_POST['_token']) && (($_POST['_token']) != "") && isset ($_POST['nome']) && (($_POST['nome']) != "") && isset ($_POST['whatsapp']) && (($_POST['whatsapp']) != "") && isset ($_POST['email']) && (($_POST['email']) != "") && isset ($_POST['grupo']) && (($_POST['grupo']) != "") && isset ($_POST['igreja']) && (($_POST['igreja']) != '0') && isset ($_POST['qt']) && (($_POST['qt']) >= 0)) {
     $_token = $_POST['_token'];
