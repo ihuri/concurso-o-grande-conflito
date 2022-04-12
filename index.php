@@ -168,7 +168,7 @@ include 'db.php';
                                 <div class="form-check">
 
                                     <input type="checkbox" class="form-check-input" id="aceiteTermo" name="aceiteTermo" value="on" required>
-                                    <label class="form-check-label" for="exampleCheck1">Declaro que li e concordo com as normas deste <a href="#">Concurso</a>.</label>
+                                    <label class="form-check-label" for="exampleCheck1">Declaro que li e concordo com as normas deste <a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1">Concurso</a>.</label>
                                 </div>
                                 <br />
                                 <input type="submit" class="btn btn-primary mb-2" name="send" id="send" value="Cadastrar" disabled><br><br>
@@ -233,6 +233,95 @@ include 'db.php';
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; TIAPS 2022</div>
     </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Regras para o Concurso Grande Conflito</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="http://marcusmarques.com.br/wp-content/uploads/2019/04/regras.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">1. O concurso “Grande Conflito a resposta” ultimará como base para consulta o livro “O Grande Conflito: acontecimentos que mudarão seu futuro”, da autora Ellen G. White Edição Condensada do ano de 2007.
+                                    </p>
+                                    <p class="mb-4">2. O concurso “Grande Conflito a reposta” é válido apenas em território da Associação Paulista Sul (APS) da Igreja Adventista do Sétimo Dia, não sendo permitida a inscrição de candidatos membros de outras regiões administrativas da Igreja Adventista.
+                                    </p>
+                                    <p class="mb-4">3. O Concurso “Grande Conflito a reposta” é destinado às crianças, adolescentes, jovens e adultos independente de qual religião pertença.
+                                    </p>
+                                    <p class="mb-4">4. O Concurso “Grande Conflito a resposta” está dividido em 5 provas, sendo 4 online e um presencial. As provas online estão divididas por capítulos conforme apresentado em seguida e a prova final que será presencial com os 20 grupos que alcançarem as melhores notas com o tema geral do livro.
+                                    </p>
+                                    <p class="mb-4">
+                                        1⁰ prova - online: capítulos 1-10
+                                    </p>
+                                    <p class="mb-4">
+                                        2⁰ prova - online: capítulos 11-21
+                                    </p>
+                                    <p class="mb-4">
+                                        3⁰ prova - online: capítulos 22-31
+                                    </p>
+                                    <p class="mb-4">
+                                        4⁰ prova - online: capítulos 32-42
+                                    </p>
+                                    <p class="mb-4">
+                                        5⁰ prova – presencial: Livro o todo 
+                                    </p>
+
+                                    <p class="mb-4">5. As inscrições para a participação nos Concursos serão online e gratuitas, permitidas somente até o início da primeira prova, exclusivamente pelo site https://concurso.paulistasul.org.br.
+                                    </p>
+                                    <p class="mb-4">6. O concurso será realizado por grupos de 3 a 5 pessoas, sem limitações de grupos por igreja;
+                                    </p>
+                                    <p class="mb-4">7. Os vencedores do concurso “Grande Conflito a reposta” estão sujeitos a ceder seu nome, imagem e som de voz à Associação Paulista Sul, de forma igualmente gratuita, com o propósito de reforço da mídia publicitária dos eventos em referência.
+                                    </p>
+                                    <p class="mb-4">8. O livro o Grande Conflito estará disponível na loja do Sels por um valor especial somente para os participantes do concurso;
+                                    </p>
+                                    <p class="mb-4">9. O Concurso “Grande Conflito a reposta” será realizada por meio de respostas a perguntas objetivas de múltipla escolha pela internet no site do Concurso.
+                                    </p>
+                                    <p class="mb-4">10. Os candidatados classificados em primeiro, segundo e terceiro lugar em pontos, receberão os seguintes prêmios, que devem ser direcionados para ações dos diversos mistérios da igreja local, sendo remunerados mediantes a apresentação de nota fiscal, pela seguinte ordem: 
+                                    </p>
+                                    <p class="mb-4">
+                                        Primeiro lugar: R$ 5.000 (5 mil reais), Troféu de Campeão.
+                                    </p>
+                                    <p class="mb-4">
+                                        Segundo lugar: R$ 3.000 (3 mil reais)
+                                    </p>
+                                    <p class="mb-4">
+                                        Terceiro lugar: R$ 2.000 (2 mil reais)
+                                    </p>
+                                    <p class="mb-4">11. A igreja beneficiada deve fazer parte do espaço geográfico correspondente a Associação Paulista Sul da Igreja Adventista do Sétimo Dia. 
+                                    </p>
+                                    <p class="mb-4">12. As datas da realização das provas serão:
+                                    </p>
+                                    <p class="mb-4">Prova 1 online – 17/04
+                                    </p>
+                                    <p class="mb-4">Prova 2 online – 22/05
+                                    </p>
+                                    <p class="mb-4">Prova 3 online – 26/06
+                                    </p>
+                                    <p class="mb-4">Prova 4 online – 31/07
+                                    </p>
+                                    <p class="mb-4">Prova 5 (Presencial) – 21/08
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        Fechar Contrato
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
