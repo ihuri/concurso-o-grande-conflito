@@ -54,6 +54,8 @@ include 'db.php';
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contdown.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
@@ -80,26 +82,102 @@ include 'db.php';
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">O Grande <b>Conflito</b></h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Participe do nosso concurso e mostre que você e sua equipe dominam o assunto.</h2>
-                    <a class="btn btn-primary" href="#subscription">Inscreva-se</a>
+                    </br>
+                    </br>
+                    </br>
                 </div>
             </div>
         </div>
     </header>
     <!-- Informações-->
-    <section class="about-section text-center" id="about">
+    <section class="about-section text-center bg-black" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Informações sobre o Concurso</h2>
+                    <h2 class="text-white mb-4 text-uppercase">O Grande Conflito a Resposta</h2>
                     <p class="text-white-50">
-                        Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                        <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a> The theme is open source, and you can use it for any purpose, personal or commercial.
+                    Um concurso pensado para o seu desenvolvimento espiritual e conhecimento dos eventos finais deste mundo. Participe com o seu grupo e vamos movimentar as Igrejas da Associação Paulista Sul neste movimento de leitura do livro "O Grande Conflito", de Ellen G. White.
                     </p>
+                    <a class="btn btn-primary" href="#subscription">INSCREVA A SUA EQUIPE</a>
                 </div>
             </div>
             <img class="img-fluid" src="assets/img/ipad-grande-conflito.png" alt="..." />
+        </div>
+    </section>
+    <!-- Contdown -->
+    <section class="about-section text-center bg-black" id="contdown">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4 text-uppercase" id="headline">Primeira Prova EM</h2>
+                </div>
+                <div id="countdown" class="text-white">
+                    <ul>
+                        <li><span id="days"></span>Dias</li>
+                        <li><span id="hours"></span>Horas</li>
+                        <li><span id="minutes"></span>Minutos</li>
+                        <li><span id="seconds"></span>Segundos</li>
+                    </ul>
+                </div>
+                <div id="content" class="emoji">
+                    <span>🥳</span>
+                    <span>🎉</span>
+                    <span>🧾</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contdown -->
+    <section class="about-section text-center bg-black" id="contdown">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4 text-uppercase" id="headline"><b>O Concurso</b></h2>
+                </div>
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/U7UoDOsmyeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Premiação -->
+    <section class="about-section text-center" id="premiacao">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Segundo Lugar</h4>
+                            <br>
+                            <h1 class="text-uppercase m-0"><b>3 MIL</b></h1>
+                            <br>
+                            <div class="small text-black-50">O valor é destinado ao uso exclusivo em departamentos de sua igreja. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Primeiro Lugar</h4>
+                            <br>
+                            <h1 class="text-uppercase m-0 font-max"><b>5 MIL</b></h1>
+                            <br>
+                            <div class="small text-black-50">O valor é destinado ao uso exclusivo em departamentos de sua igreja. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Terceiro Lugar</h4>
+                            <br>
+                            <h1 class="text-uppercase m-0"><b>1 MIL</b></h1>
+                            <br>
+                            <div class="small text-black-50">O valor é destinado ao uso exclusivo em departamentos de sua igreja. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
         </div>
     </section>
     <!-- Inscrição-->
@@ -335,6 +413,7 @@ include 'db.php';
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/integrantes.js"></script>
     <script src="js/custon.js"></script>
+    <script src="js/contdown.js"></script>
     <!-- Prova-->
     <script type="text/javascript">
         var QuizWorks = window.QuizWorks || [];
