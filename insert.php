@@ -31,7 +31,7 @@ if (isset ($_POST['_token']) && (($_POST['_token']) != "") && isset ($_POST['nom
     $statement = $connection->prepare($sql);
     if ($statement->execute([':nome' => $nome, ':whatsapp' => $whatsapp, ':email' => $email, ':grupo' => $grupo, ':igreja' => $igreja,':qt' => $qt, ':nome_integrante01' => $nome_integrante01, ':nome_integrante02' => $nome_integrante02, ':nome_integrante03' => $nome_integrante03,':nome_integrante04' => $nome_integrante04])) {
                 sleep(1);
-                header("Location: http://localhost/ConcursoGC"); 
+                header("Location: http://concurso.paulistasul.org.br");
     }
 }
 
