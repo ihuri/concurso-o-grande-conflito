@@ -276,7 +276,7 @@ a {
 }
 
 a:hover {
-    color: #50817e;
+    color: #DF7700;
 }
 
 a:not([href]):not([class]),
@@ -3057,14 +3057,14 @@ fieldset:disabled .btn {
 .btn-primary:hover {
     color: #fff;
     background-color: #dda971;
-    border-color: #50817e;
+    border-color: #DF7700;
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
     background-color: #dda971;
-    border-color: #50817e;
+    border-color: #DF7700;
     box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
 }
 
@@ -3074,7 +3074,7 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #50817e;
+    background-color: #DF7700;
     border-color: #4b7976;
 }
 
@@ -3905,7 +3905,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link:hover {
-    color: #50817e;
+    color: #DF7700;
 }
 
 .btn-link:disabled,
@@ -4441,7 +4441,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #50817e;
+    color: #DF7700;
 }
 
 .nav-link.disabled {
@@ -5056,7 +5056,6 @@ fieldset:disabled .btn {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
@@ -5109,6 +5108,10 @@ fieldset:disabled .btn {
 
 .card-link+.card-link {
     margin-left: 1rem;
+}
+
+.card-link-decoration-none {
+    text-decoration: none
 }
 
 .card-header {
@@ -5389,14 +5392,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
     z-index: 2;
-    color: #50817e;
+    color: #DF7700;
     background-color: #e9ecef;
     border-color: #dee2e6;
 }
 
 .page-link:focus {
     z-index: 3;
-    color: #50817e;
+    color: #DF7700;
     background-color: #e9ecef;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
@@ -7241,7 +7244,7 @@ fieldset:disabled .btn {
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #50817e;
+    color: #DF7700;
 }
 
 .link-secondary {
@@ -8569,6 +8572,11 @@ fieldset:disabled .btn {
 .text-primary {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-default {
+    --bs-text-opacity: 1;
+    color: #DF7700 !important;
 }
 
 .text-secondary {
