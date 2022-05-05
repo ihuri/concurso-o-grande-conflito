@@ -198,7 +198,7 @@ include 'db.php';
                         <div class="card-body text-center text-white">
                             <h4 class="text-uppercase m-0">Terceiro Lugar</h4>
                             <br>
-                            <h1 class="text-uppercase m-0"><b>1 MIL</b></h1>
+                            <h1 class="text-uppercase m-0"><b>2 MIL</b></h1>
                             <br>
                             <div class="small text-white-50">O valor é destinado ao uso exclusivo em departamentos de sua igreja. </div>
                         </div>
@@ -525,15 +525,15 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                     </p>
                                     <p class="mb-4">12. As datas da realização das provas serão:
                                     </p>
-                                    <p class="mb-4">Prova 1 online – 17/04
+                                    <p class="mb-4">Prova 1 online – 29/05
                                     </p>
-                                    <p class="mb-4">Prova 2 online – 22/05
+                                    <p class="mb-4">Prova 2 online – 03/07
                                     </p>
-                                    <p class="mb-4">Prova 3 online – 26/06
+                                    <p class="mb-4">Prova 3 online – 31/07
                                     </p>
-                                    <p class="mb-4">Prova 4 online – 31/07
+                                    <p class="mb-4">Prova 4 online – 21/08
                                     </p>
-                                    <p class="mb-4">Prova 5 (Presencial) – 21/08
+                                    <p class="mb-4">Prova 5 (Presencial) – 11/09
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         Fechar Contrato
