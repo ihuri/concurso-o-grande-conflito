@@ -220,7 +220,7 @@ include 'db.php';
                             <h3 class="page-section-heading text-center mb-0">INSCREVA O SEU GRUPO</h3>
                             <br>
                             <br>
-                            <form action="insert.php" method="post" id="formID">
+                            <form action="insert.php" method="post" id="formID" name="form">
                             <input type="hidden" id="_token" name="_token" value="<?= $token; ?>">
                                 <div class="col-md-812 col-lg-12 mb-5">
                                     <div class="form-group">
@@ -245,7 +245,7 @@ include 'db.php';
                                             <div class="col-sm">
                                                 <label for="igreja">Igreja do Grupo: </label>
                                                 <select class="form-control" id="igreja" name="igreja" required>
-                                                    <option value="0">Selecione..</option>
+                                                    <option>Selecione..</option>
                                                     <?php
                                                         foreach ($igrejas as $key => $igreja) {
                                                             echo "<option value='".$igreja->nome."'>".$igreja->nome."</option>"; 
@@ -254,10 +254,9 @@ include 'db.php';
                                                 </select>   
                                             </div>
                                             <div class="col-sm">
-                                                <label for="qt">Quantos integrantes: </label>
-                                                <select class="form-control" name="qt" id="children-qnt">
-                                                    <option value="0">Somente Eu</option>
-                                                    <option value="1">Eu e + 1</option>
+                                                <label for="qt" id="integrantes">Quantos integrantes: </label>
+                                                <select class="form-control" name="qt" id="children-qnt" required>
+                                                    <option value="0">Selecione a quantidade</option>
                                                     <option value="2">Eu e + 2</option>
                                                     <option value="3">Eu e + 3</option>
                                                     <option value="4">Eu e + 4</option>
@@ -575,6 +574,9 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
 
     <!-- Recaptia-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script>
+ 
 
 </body>
 
