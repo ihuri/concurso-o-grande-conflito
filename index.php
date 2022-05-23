@@ -344,7 +344,7 @@ include 'db.php';
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl col-lg">
                         <div id="embed-exam-501348">
-                            Loading <a href="https://www.onlineexambuilder.com/pt/prova-teste/exam-501348">Prova teste</a>
+                            Loading <a href=""></a>
                         </div>
                     </div>
                 </div>
@@ -466,7 +466,7 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Regras para o Concurso Grande Conflito</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Regulamento para o Concurso Grande Conflito</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -475,13 +475,19 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="http://marcusmarques.com.br/wp-content/uploads/2019/04/regras.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">1. O concurso “Grande Conflito a resposta” ultimará como base para consulta o livro “O Grande Conflito: acontecimentos que mudarão seu futuro”, da autora Ellen G. White Edição Condensada do ano de 2007.
+                                    <p class="mb-4">1. O concurso “Grande Conflito - A resposta” terá como base para consulta o livro “O Grande Conflito: Acontecimentos que Mudarão Seu Futuro”, da autora Ellen G. White, Edição Condensada, ano de 2019;
                                     </p>
-                                    <p class="mb-4">2. O concurso “Grande Conflito a reposta” é válido apenas em território da Associação Paulista Sul (APS) da Igreja Adventista do Sétimo Dia, não sendo permitida a inscrição de candidatos membros de outras regiões administrativas da Igreja Adventista.
+                                    <p class="mb-4">2. O concurso “Grande Conflito - A resposta” é válido apenas em território da Associação Paulista Sul (APS) da Igreja Adventista do Sétimo Dia, não sendo permitida a inscrição de candidatos membros de outras regiões administrativas da Igreja Adventista;
                                     </p>
-                                    <p class="mb-4">3. O Concurso “Grande Conflito a reposta” é destinado às crianças, adolescentes, jovens e adultos independente de qual religião pertença.
+                                    <p class="mb-4">3. O Concurso “Grande Conflito – A resposta” não está restrito apenas a membros adventistas. Pessoas de outras denominações ou não também podem participar, lembrando que a premiação será entregue à equipe vencedora e direcionada para o uso exclusivo da igreja representada; 
                                     </p>
-                                    <p class="mb-4">4. O Concurso “Grande Conflito a resposta” está dividido em 5 provas, sendo 4 online e um presencial. As provas online estão divididas por capítulos conforme apresentado em seguida e a prova final que será presencial com os 20 grupos que alcançarem as melhores notas com o tema geral do livro.
+                                    <p class="mb-4">4. A inscrição para o Concurso é gratuita e deve ser feita exclusivamente pelo site http://concurso.paulistasul.org.br/ somente até o sábado, dia 28, às 11h59, período que antecede a primeira prova;
+                                    </p>
+                                    <p class="mb-4">5. O concurso será realizado por grupos de, no mínimo 3 e máximo 5 pessoas, sem limitações de grupos por igreja. Caso ocorra desistência no grupo com o mínimo de integrantes, esse poderá realizar as provas, mas não poderá ir para a final se for classificado com melhores notas; 
+                                    </p>
+                                    <p class="mb-4">6. Não será permitida troca de participante por grupo;
+                                    </p>
+                                    <p class="mb-4">7. O Concurso “Grande Conflito - A resposta” está dividido em 5 provas, sendo 4 online e uma presencial. As provas online estarão disponíveis no site do concurso na data marcada e estarão divididas por capítulos conforme apresentado abaixo, e a prova final, baseada em todo o livro, será realizada de forma presencial com os 20 grupos que alcançarem as melhores notas. 
                                     </p>
                                     <p class="mb-4">
                                         1⁰ prova - online: capítulos 1-10
@@ -499,17 +505,31 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                         5⁰ prova – presencial: Livro o todo 
                                     </p>
 
-                                    <p class="mb-4">5. As inscrições para a participação nos Concursos serão online e gratuitas, permitidas somente até o início da primeira prova, exclusivamente pelo site https://concurso.paulistasul.org.br.
+                                    <p class="mb-4">
+                                        8. Datas da realização das provas:
                                     </p>
-                                    <p class="mb-4">6. O concurso será realizado por grupos de 3 a 5 pessoas, sem limitações de grupos por igreja;
+                                    <p class="mb-4">
+                                        Prova 1 online – 29/05 
                                     </p>
-                                    <p class="mb-4">7. Os vencedores do concurso “Grande Conflito a reposta” estão sujeitos a ceder seu nome, imagem e som de voz à Associação Paulista Sul, de forma igualmente gratuita, com o propósito de reforço da mídia publicitária dos eventos em referência.
+                                    <p class="mb-4">
+                                        Prova 2 online – 03/07
                                     </p>
-                                    <p class="mb-4">8. O livro o Grande Conflito estará disponível na loja do Sels por um valor especial somente para os participantes do concurso;
+                                    <p class="mb-4">
+                                        Prova 3 online – 31/07 
                                     </p>
-                                    <p class="mb-4">9. O Concurso “Grande Conflito a reposta” será realizada por meio de respostas a perguntas objetivas de múltipla escolha pela internet no site do Concurso.
+                                    <p class="mb-4">
+                                        Prova 4 online – 21/08
                                     </p>
-                                    <p class="mb-4">10. Os candidatados classificados em primeiro, segundo e terceiro lugar em pontos, receberão os seguintes prêmios, que devem ser direcionados para ações dos diversos mistérios da igreja local, sendo remunerados mediantes a apresentação de nota fiscal, pela seguinte ordem: 
+                                    <p class="mb-4">
+                                        Prova 5 (Presencial) – 11/09
+                                    </p>
+                                    <p class="mb-4">9. O local para a prova presencial será definido conforme a região que tiver mais finalistas e informado aos finalistas por meio do WhatsApp. 
+                                    </p>
+                                    <p class="mb-4">10. No dia do exame presencial, o inscrito deverá levar caneta esferográfica de tinta azul ou preta; 
+                                    </p>
+                                    <p class="mb-4">11. A igreja beneficiada deve fazer parte do espaço geográfico correspondente a Associação Paulista Sul da Igreja Adventista do Sétimo Dia. 
+                                    </p>
+                                    <p class="mb-4">12. Os candidatados classificados em primeiro, segundo e terceiro lugar em pontos, receberão os seguintes prêmios, que devem ser direcionados para ações dos diversos ministérios da igreja local, sendo remunerados mediante a apresentação de nota fiscal, pela seguinte ordem: 
                                     </p>
                                     <p class="mb-4">
                                         Primeiro lugar: R$ 5.000 (5 mil reais), Troféu de Campeão.
@@ -520,19 +540,18 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                     <p class="mb-4">
                                         Terceiro lugar: R$ 2.000 (2 mil reais)
                                     </p>
-                                    <p class="mb-4">11. A igreja beneficiada deve fazer parte do espaço geográfico correspondente a Associação Paulista Sul da Igreja Adventista do Sétimo Dia. 
+
+                                    <p class="mb-4">13. A igreja beneficiada deve fazer parte do espaço geográfico correspondente a Associação Paulista Sul da Igreja Adventista do Sétimo Dia;
                                     </p>
-                                    <p class="mb-4">12. As datas da realização das provas serão:
+                                    <p class="mb-4">14. A premiação será tratada entre o responsável do grupo vencedor e o pastor ou tesoureiro da igreja que o grupo representa, sendo remunerados mediante a apresentação de nota fiscal;  
                                     </p>
-                                    <p class="mb-4">Prova 1 online – 29/05
+                                    <p class="mb-4">15. O prazo para resgatar a premiação (apresentar a nota) é até o dia 24 de outubro de 2022;  
                                     </p>
-                                    <p class="mb-4">Prova 2 online – 03/07
+                                    <p class="mb-4">16. Os vencedores do concurso “Grande Conflito - A resposta” estão sujeitos a cederem seu nome, imagem e  voz à Associação Paulista Sul, de forma inteiramente gratuita, com o propósito de reforço da mídia publicitária dos eventos em referência; 
                                     </p>
-                                    <p class="mb-4">Prova 3 online – 31/07
+                                    <p class="mb-4">17. O livro o Grande Conflito estará disponível na loja do Sels, Rua Paulino Vital de Morais, 307, por um valor especial, somente para os participantes do concurso;
                                     </p>
-                                    <p class="mb-4">Prova 4 online – 21/08
-                                    </p>
-                                    <p class="mb-4">Prova 5 (Presencial) – 11/09
+                                    <p class="mb-4">18. Em caso de empate no resultado, o valor será dividido entre as equipes correspondentes.
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         Fechar Contrato
