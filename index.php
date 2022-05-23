@@ -344,7 +344,7 @@ include 'db.php';
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl col-lg">
                         <div id="embed-exam-501348">
-                            Loading <a href=""></a>
+                            Loading <a href="">Prova teste</a>
                         </div>
                     </div>
                 </div>
@@ -481,7 +481,7 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                     </p>
                                     <p class="mb-4">3. O Concurso “Grande Conflito – A resposta” não está restrito apenas a membros adventistas. Pessoas de outras denominações ou não também podem participar, lembrando que a premiação será entregue à equipe vencedora e direcionada para o uso exclusivo da igreja representada; 
                                     </p>
-                                    <p class="mb-4">4. A inscrição para o Concurso é gratuita e deve ser feita exclusivamente pelo site http://concurso.paulistasul.org.br/ somente até o sábado, dia 28, às 11h59, período que antecede a primeira prova;
+                                    <p class="mb-4">4. A inscrição para o Concurso é gratuita e deve ser feita exclusivamente pelo site http://concurso.paulistasul.org.br/ somente até o sábado, dia 28, às 23h59, período que antecede a primeira prova;
                                     </p>
                                     <p class="mb-4">5. O concurso será realizado por grupos de, no mínimo 3 e máximo 5 pessoas, sem limitações de grupos por igreja. Caso ocorra desistência no grupo com o mínimo de integrantes, esse poderá realizar as provas, mas não poderá ir para a final se for classificado com melhores notas; 
                                     </p>
@@ -523,7 +523,7 @@ O concurso terá como base para consulta o livro “O Grande Conflito: Acontecim
                                     <p class="mb-4">
                                         Prova 5 (Presencial) – 11/09
                                     </p>
-                                    <p class="mb-4">9. O local para a prova presencial será definido conforme a região que tiver mais finalistas e informado aos finalistas por meio do WhatsApp. 
+                                    <p class="mb-4">9. As provas online iniciam às 10h, nas datas marcadas. Já a prova presencial, tanto o local quanto o horário serão definidos conforme a região que tiver mais finalistas e será informado aos finalistas por meio do WhatsApp. 
                                     </p>
                                     <p class="mb-4">10. No dia do exame presencial, o inscrito deverá levar caneta esferográfica de tinta azul ou preta; 
                                     </p>
